@@ -1,0 +1,30 @@
+{
+  "name": "islandgamer",
+  "version": "1.0.0",
+  "description": "**IsLandGamer** is a vibrant and feature-rich WordPress theme meticulously crafted for gaming enthusiasts, communities, streamers, and content creators. Whether you're building a bustling forum for your favorite games, showcasing your epic playthroughs, or selling gaming merchandise, IsLandGamer provides the perfect foundation to create an engaging and immersive online experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhman1004/islandgamer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/minhman1004/islandgamer/issues"
+  },
+  "homepage": "https://github.com/minhman1004/islandgamer#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "motion": "^12.7.4"
+  }
+}

@@ -1,0 +1,11 @@
+/*
+Theme Name: IsLandGamer Theme
+Author: Man Tran
+Author URI: https://davvvv.studio.com/
+Description: A simple WordPress theme with Tailwind CSS.
+Version: 1.0
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
